@@ -1,19 +1,19 @@
 let FlyBehavior = {
-    'FlyWithWings': function (id) {
-        return 'Duck ' + id + ':\n' + 'I can fly\n';
+    'FlyWithWings': function () {
+        return 'I can fly';
     },
-    'FlyNoWay': function (id) {
-        return 'Duck ' + id + ':\n' + 'I can\'t fly\n';
+    'FlyNoWay': function () {
+        return 'I can\'t fly';
     }
 };
 let QuackBehavior = {
     'Quack': function () {
-        return 'Quack!\n\n';
+        return 'Quack!';
     },
     'Squeak': function () {
-        return 'Squeak!\n\n';
+        return 'Squeak!';
     },
     'MuteQuack': function () {
-        return '......\n\n';
+        return '......';
     }
 };

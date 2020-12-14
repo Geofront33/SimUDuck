@@ -39,12 +39,13 @@ class Duck {
     }
     performFly() {
         const output = $('#output');
-        output.append(this.flyBehavior(this.id));
+        output.append('Duck '+this.id+':\n');
+        output.append(this.flyBehavior()+'\n');
         output.scrollTop(output[0].scrollHeight);
     }
     performQuack() {
         const output = $('#output');
-        output.append(this.quackBehavior(this.id));
+        output.append(this.quackBehavior()+'\n\n');
         output.scrollTop(output[0].scrollHeight);
     }
     died() {
